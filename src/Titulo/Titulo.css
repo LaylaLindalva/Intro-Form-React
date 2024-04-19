@@ -1,0 +1,11 @@
+.titulo{
+    font-size: 30px;
+    color: white;
+    
+    margin: 0px;
+    line-height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+   
+}

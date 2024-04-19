@@ -1,0 +1,19 @@
+:root{
+    --Green: hsl(154, 59%, 51%);
+}
+
+button{
+    background-color: var(--Green);
+    border: 0;
+    padding: 10px;
+    border-radius: 2px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+}
+
+
+.para{
+    margin: 10px;
+}

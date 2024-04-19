@@ -1,0 +1,47 @@
+:root{
+  --Dark-Blue: hsl(249, 10%, 26%); 
+  --Grayish-Blue: hsl(246, 25%, 77%);
+  --Blue: hsl(248, 32%, 49%);
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+}
+
+body{
+    background-image: url("../../images/bg-intro-desktop.png");
+    background-color: var(--Red);
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container{
+    background-color: white;
+    border-radius: 8px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.info{
+    background-color: var(--Blue);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    width: 380px;
+    height: 20px;
+}
+
+.div-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
